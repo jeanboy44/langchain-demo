@@ -1,9 +1,9 @@
 import json
 
-from src.ice_breaker.third_parties.linkedin import scrape_linkedin_profile
+from src.ice_breaker.third_parties.linkedin import get_linkedin_profile_response
 
 if __name__ == "__main__":
-    linkedin_data = scrape_linkedin_profile(
+    linkedin_data = get_linkedin_profile_response(
         linkedin_profile_url="https://wwww.linkedin.com/in/harrison-chase-961287118/"
     )
 
