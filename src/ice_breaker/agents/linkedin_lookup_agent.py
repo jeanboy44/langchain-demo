@@ -4,7 +4,7 @@ from langchain import PromptTemplate
 from langchain.agents import AgentType, Tool, initialize_agent
 from langchain.chat_models import ChatOpenAI
 
-from src.tools.tools import get_profile_url
+from src.ice_breaker.tools.tools import get_profile_url
 
 
 def lookup(name: str) -> str:

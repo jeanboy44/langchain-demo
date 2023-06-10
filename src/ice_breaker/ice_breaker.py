@@ -4,7 +4,7 @@ from langchain import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.chat_models import ChatOpenAI
 
-from src.agents.linkedin_lookup_agent import lookup as linkedin_lookup_agent
+from src.ice_breaker.agents.linkedin_lookup_agent import lookup as linkedin_lookup_agent
 from src.ice_breaker.third_parties.linkedin import scrape_linkedin_profile
 
 if __name__ == "__main__":
