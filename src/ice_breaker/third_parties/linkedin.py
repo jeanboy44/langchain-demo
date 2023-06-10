@@ -39,7 +39,7 @@ def scrape_linkedin_profile(
             this argument is not None, linkedin_profile_url is ignored. Defaults to
             None.
     """
-    if linkedin_profile_json_path:
+    if linkedin_profile_url is None:
         with linkedin_profile_json_path.open() as f:
             data = json.load(f)
     else:
