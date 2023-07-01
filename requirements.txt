@@ -7,3 +7,4 @@ pre-commit==3.3.2
 langchain==0.0.189
 openai==0.27.7
 google-search-results==2.4.2
+tweepy==4.14.0
